@@ -1,0 +1,4 @@
+Private-Network/Node-*/data/*
+Private-Network/genesis-generator/networkFiles
+
+!Private-Network/Node-*/data/*.gitkeep
