@@ -1,5 +1,8 @@
 data-path = "/usr/app/data"
 
+bootnodes = [
+  "enode://cb6f4b4a913749daba82692758d3e46bc0de36e5734ce5c094c20ed07db22e8e7b745aca7b02ebc5590fb204bc2bdda0a0e36dc95b292c3d61b362b910345605@127.0.0.1:30303",
+]
 rpc-http-enabled = true
 rpc-http-api = ["ETH", "NET", "WEB3", "QBFT"]
 rpc-http-port = 8549

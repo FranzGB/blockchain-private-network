@@ -1,10 +1,10 @@
 version: '3'
 services:
   besu:
-    image: hyperledger/besu:22.1.0-RC5-SNAPSHOT
+    image: hyperledger/besu:23.1.1
     container_name: "genesis-generator"
     volumes:
       - .:/usr/app/
-    command: operator generate-blockchain-config --config-file=/usr/app/qbftConfigFile.json --to=/usr/app/networkFiles
+    command: operator generate-blockchain-config --config-file=/usr/app/qbftConfigFile.json --to=/usr/app/networkFiles --private-key-file-name=key
 volumes:
   .:
